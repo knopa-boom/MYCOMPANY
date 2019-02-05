@@ -365,7 +365,7 @@ main .main__about {
 }
 
 .contact__wrapper {
-    width: 753px;
+    width: 76%;
     margin: 0 auto;
     color: #969696;
 }
@@ -470,6 +470,7 @@ footer {
 .social img:hover {
     opacity: 0.6;
 }
+
 
 /* Медиа-запросы */
 @media screen and (max-width: 1200px) {
@@ -605,8 +606,9 @@ footer {
         margin-right: 0;
         nav-left: 23px;
     }
-    
-    @media screen and (max-width: 426px) {
+}
+
+@media screen and (max-width: 426px) {
     .button__block {
         justify-content: center;
     }
@@ -617,5 +619,3 @@ footer {
         width: 90%;
     }
 }
-}
-
