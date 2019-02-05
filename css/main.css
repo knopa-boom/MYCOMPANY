@@ -471,19 +471,6 @@ footer {
     opacity: 0.6;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Медиа-запросы */
 @media screen and (max-width: 1200px) {
     nav {
@@ -618,5 +605,17 @@ footer {
         margin-right: 0;
         nav-left: 23px;
     }
+    
+    @media screen and (max-width: 426px) {
+    .button__block {
+        justify-content: center;
+    }
+    input:first-of-type {
+        margin-right: 0;
+    }
+    input {
+        width: 90%;
+    }
+}
 }
 
